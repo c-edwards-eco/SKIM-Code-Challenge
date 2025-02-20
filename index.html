@@ -20,7 +20,7 @@
   }
 
   .challenge-item {
-    margin-bottom: 1rem;
+    margin: 2px;
     border: none;
     background-color: #AEEBE1;
     padding: 4px;
@@ -57,8 +57,8 @@
 
 
   <div class="container">
-    <div class="row d-flex justify-content-center">
-      <div class="col-md-4 challenge-item rounded">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-4 challenge-item rounded m-2">
         <h2>Challenge #1</h2>
         <p>
           <label for="inputOne">Enter a number between 1 and 18:</label> <!-- I don't know if you want to force the input to this range... -->
@@ -68,12 +68,10 @@
         <div id="resultOne">N/A</div>
         </p>
       </div>
-    </div>
-  </div>
 
-  <div class="container">
-    <div class="row d-flex justify-content-center">
-      <div class="col-md-4 challenge-item rounded">
+
+
+      <div class="col-12 col-md-4 challenge-item rounded m-2">
         <h2>Challenge #2</h2>
         <p>
           <label for="inputTwo">Enter a number:</label>
@@ -84,7 +82,7 @@
         </p>
       </div>
     </div>
-  </div>
+    </div>
 
   <script>
     function calculateFactorial() {
